@@ -26,6 +26,7 @@ public class Appointment {
 	@Column(name = "Confirmed")
     private boolean confirmed;
 	
+
 	@ManyToOne
 	@JoinColumn(name = "user_id")
 	private User user;
